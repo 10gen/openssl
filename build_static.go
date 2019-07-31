@@ -16,7 +16,7 @@
 
 package openssl
 
-// #cgo linux windows darwin pkg-config: --static libssl libcrypto
+// #cgo linux windows solaris darwin pkg-config: --static libssl libcrypto
 // #cgo CFLAGS: -Wno-deprecated-declarations
 // #cgo windows CFLAGS: -DWIN32_LEAN_AND_MEAN -I"c:/openssl/include"
 // #cgo windows LDFLAGS: -lssleay32 -llibeay32 -lcrypt32 -L "c:/openssl/bin"
